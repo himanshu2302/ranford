@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14682" started-at="2019-01-17T09:49:26Z" finished-at="2019-01-17T09:49:41Z">
+  <suite name="Default suite" duration-ms="17390" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14682" started-at="2019-01-17T09:49:26Z" finished-at="2019-01-17T09:49:41Z">
+    <test name="Default test" duration-ms="17390" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:26Z">
       <class name="com.ranford.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="9359" started-at="2019-01-17T09:49:26Z" finished-at="2019-01-17T09:49:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="10729" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="loginTest" duration-ms="4930" started-at="2019-01-17T09:49:35Z" finished-at="2019-01-17T09:49:40Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="loginTest" duration-ms="6216" started-at="2019-01-19T11:43:19Z" finished-at="2019-01-19T11:43:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="361" started-at="2019-01-17T09:49:40Z" finished-at="2019-01-17T09:49:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="410" started-at="2019-01-19T11:43:25Z" finished-at="2019-01-19T11:43:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
