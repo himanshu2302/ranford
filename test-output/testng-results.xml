@@ -1,25 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17390" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:26Z">
+  <suite name="Default suite" duration-ms="78597" started-at="2019-01-21T09:12:32Z" finished-at="2019-01-21T09:13:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17390" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:26Z">
-      <class name="com.ranford.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="10729" started-at="2019-01-19T11:43:08Z" finished-at="2019-01-19T11:43:19Z">
+    <test name="Default test" duration-ms="78597" started-at="2019-01-21T09:12:32Z" finished-at="2019-01-21T09:13:51Z">
+      <class name="com.ranford.testcases.NewContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="setUp" is-config="true" duration-ms="9692" started-at="2019-01-21T09:12:33Z" finished-at="2019-01-21T09:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="loginTest" duration-ms="6216" started-at="2019-01-19T11:43:19Z" finished-at="2019-01-19T11:43:25Z">
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="createNewContactsTest" duration-ms="9466" started-at="2019-01-21T09:12:43Z" data-provider="getData" finished-at="2019-01-21T09:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bharath]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="410" started-at="2019-01-19T11:43:25Z" finished-at="2019-01-19T11:43:26Z">
+        </test-method> <!-- createNewContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="tearDown" is-config="true" duration-ms="368" started-at="2019-01-21T09:12:52Z" finished-at="2019-01-21T09:12:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ranford.testcases.LoginTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="setUp" is-config="true" duration-ms="8391" started-at="2019-01-21T09:12:52Z" finished-at="2019-01-21T09:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="createNewContactsTest" duration-ms="9455" started-at="2019-01-21T09:13:01Z" data-provider="getData" finished-at="2019-01-21T09:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sadhana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="tearDown" is-config="true" duration-ms="2320" started-at="2019-01-21T09:13:10Z" finished-at="2019-01-21T09:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="setUp" is-config="true" duration-ms="8303" started-at="2019-01-21T09:13:13Z" finished-at="2019-01-21T09:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="createNewContactsTest" duration-ms="9325" started-at="2019-01-21T09:13:21Z" data-provider="getData" finished-at="2019-01-21T09:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himanshu ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dubey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sapiens]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="tearDown" is-config="true" duration-ms="403" started-at="2019-01-21T09:13:30Z" finished-at="2019-01-21T09:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="setUp" is-config="true" duration-ms="8496" started-at="2019-01-21T09:13:31Z" finished-at="2019-01-21T09:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="createNewContactsTest" duration-ms="11405" started-at="2019-01-21T09:13:39Z" data-provider="getData" finished-at="2019-01-21T09:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santhosh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhoopathi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Microsoft]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ranford.testcases.NewContactsPageTest@4883b407]" name="tearDown" is-config="true" duration-ms="356" started-at="2019-01-21T09:13:51Z" finished-at="2019-01-21T09:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ranford.testcases.NewContactsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
