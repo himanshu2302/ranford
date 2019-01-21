@@ -13,18 +13,20 @@ import com.ranford.base.TestBase;
 
 public class TestUtil extends TestBase{
 
-	
+	// Defining static wait timings
 	public static long pageLoadTime=40;
 	public static long implicitTime=20;
 	
 	static Workbook book;
 	static Sheet sheet;
 	
-	
+	// Method for switching to the frame
 	public static void switchToFrame() {
 		driver.switchTo().frame("mainpanel");
 	}
 	
+	
+	// Method for getting data from excel sheet
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
 		FileInputStream file = null;
 		
