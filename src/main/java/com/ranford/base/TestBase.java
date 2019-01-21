@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.ranford.utils.TestUtil;
+
 public class TestBase {
 
 
@@ -42,8 +44,8 @@ public class TestBase {
 
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.pageLoadTime, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.implicitTime, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
 	}
 }
